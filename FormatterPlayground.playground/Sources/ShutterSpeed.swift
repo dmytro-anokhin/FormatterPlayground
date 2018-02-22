@@ -24,7 +24,7 @@ public struct ShutterSpeed {
 
 extension ShutterSpeed {
 
-    public static var second: ShutterSpeed = ShutterSpeed(numerator: 1, denominator: 1)!
+    public static let second = ShutterSpeed(numerator: 1, denominator: 1)!
 }
 
 
